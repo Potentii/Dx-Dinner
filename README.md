@@ -1,8 +1,14 @@
 # Dx Dinner
 
+[![Build Status](https://travis-ci.org/Potentii/Dx-Dinner.svg?branch=master)](https://travis-ci.org/Potentii/Dx-Dinner)
+
 A demo application showcasing a simple food ordering system for a fictional restaurant startup.
 
 This app is publicly available at [https://dx-dinner.herokuapp.com/](https://dx-dinner.herokuapp.com).
+
+<br>
+
+<img src="/docs/images/main-screenshot.png?raw=true" width="600" />
 
 <br>
 
