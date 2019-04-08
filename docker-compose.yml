@@ -1,0 +1,13 @@
+version: "2"
+services:
+  node:
+    image: "node:11"
+    user: "node"
+    working_dir: /home/node/dx-dinner
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./:/home/node
+    expose:
+      - "80"
+    command: "npm run api-start && npm run app-build"
